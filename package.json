@@ -1,0 +1,35 @@
+{
+  "name": "todoist-automation",
+  "version": "1.0.0",
+  "description": "Todoist Automation using Selenium WebDriver with Screenshot & Reporting",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/**/*.test.js --timeout 60000 --reporter mochawesome",
+    "test:login": "mocha tests/login.test.js --timeout 60000 --reporter mochawesome",
+    "test:task": "mocha tests/task.test.js --timeout 60000 --reporter mochawesome",
+    "clean:reports": "rm -rf test-reports screenshots mochawesome-report",
+    "clean:screenshots": "rm -rf screenshots"
+  },
+  "keywords": [
+    "selenium",
+    "automation",
+    "todoist",
+    "mocha",
+    "reporting"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "selenium-webdriver": "^4.36.0"
+  },
+  "devDependencies": {
+    "chai": "^4.5.0",
+    "mocha": "^10.8.2",
+    "mochawesome": "^7.1.4",
+    "mochawesome-merge": "^4.4.1",
+    "mochawesome-report-generator": "^6.3.0"
+  },
+  "directories": {
+    "test": "tests"
+  }
+}

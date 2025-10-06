@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "validTask": "Selenium Automation Test Task",
+    "taskPrefix": "Test Task -"
+  },
+  "invalidCredentials": {
+    "email": "invalid@email.com",
+    "password": "wrongpassword"
+  }
+}
