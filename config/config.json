@@ -1,0 +1,13 @@
+{
+  "baseUrl": "https://todoist.com/auth/login",
+  "browser": "chrome",
+  "headless": false,
+  "implicitWait": 10000,
+  "explicitWait": 20000,
+  "screenshotOnFailure": true,
+  "screenshotPath": "./screenshots",
+  "credentials": {
+    "email": "ezhilkiruthiga@gmail.com",
+    "password": "Niralya@03"
+  }
+}
