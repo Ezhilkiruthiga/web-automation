@@ -8,6 +8,8 @@
   "screenshotPath": "./screenshots",
   "credentials": {
     "email": "ezhilkiruthiga@gmail.com",
-    "password": "Niralya@03"
+    "password": "test"
+    //Change password
   }
+
 }
